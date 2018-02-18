@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title> Landing APP</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+     
+
+        body {
+            position: relative;
+        }
+
+
+        .jumbotron {
+            background-image: url(images/background.jpg);
+            color:#c8cad9;
+            text-align: center;
+            margin-top: 55px;
+
+        }      
+
+        #emailListing {
+            margin: 0px 20%;
+            
+        }
+
+        #appSummary {
+            text-align:  center;
+            margin-top:50px;
+            margin-bottom: 50px;
+
+        }
+
+        .images {
+            max-height: 100%;
+            max-width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+            min-height: 100px;
+        }
+
+        #downloadTheApp {
+            background-color: #8c8c8c ;
+            margin-top: 10px;        
+            padding-top: 100px;
+            padding-bottom: 100px;
+            text-align: center;
+        }
+
+        .icon {
+            width: 10%;
+        }
+
+        .card-deck-wrapper {
+            background-color: lavender;
+            padding: 15px 0px;
+        }
+
+        .bottomFont {
+            color: whitesmoke;
+        }
+
+       
+
+    </style>
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="150px">
+
+<!-- ================= Navbar -->
+
+
+ <nav id="navbar" class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top">
+
+        <a id="myApp" class="navbar-brand" href="#">My App</a>
+    
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+         <ul class="nav navbar-nav">
+
+            <li class="nav-item">
+              <a id="myApp" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a  class="nav-link" href="#download">Download The App</a>
+            </li>
+          </ul>
+
+    </ul>
+    <form class="form-inline">
+        <input class="form-control mr-sm-3" type="email" placeholder="Your Email">
+        <input class="form-control mr-sm-3" type="password" placeholder="Password">
+        <button class="btn btn-success my-3 my-sm-0" type="submit">Sing In</button>
+  </form>
+  </div>
+</nav>   
+
+
+<!-- ========= Jumbotron -->
+
+     <div class="jumbotron" id="myApp">
+          <h1 class="display-3">My Awesome App!</h1>
+          <p class="lead">This is why YOU should download this fantastic app!</p>
+          <hr class="m-y-2">
+          <p>Want to know more? Join our mailing list!</p>
+
+        <div id="emailListing">
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="email">Email address</label>
+            <div class="input-group">
+              <div class="input-group-addon">@</div>
+              <input type="email" class="form-control" id="email" placeholder="Your email">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+        </div>
+    </div>
+
+<!-- ====== -->
+
+    <div id="about" class="container">      
+        <div id="appSummary">         
+            <h1>Why This App Is Awesome</h1>
+            <p class="lead">Summary, once again, of your app's awesomeness</p>         
+          </div>        
+    </div>
+
+
+<!-- ===== CARDS ============ -->
+
+<div class="card-deck-wrapper">
+<div class="container">
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-block">
+        <img src="images/car.jpg" alt="Image" class="images">
+         <h4 class="cardTitle"><i class="fa fa-child"></i>Card Title </h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content. And longer text longer text</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-block">
+         <img src="images/child.jpg" alt="Image" class="images">
+          <h4 class="cardTitle"><i class="fa fa-check"></i>Card Title </h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-block">
+        <img src="images/minions.jpg" alt="Image" class="images">
+        <h4 class="cardTitle"><i class="fa fa-adjust"></i>Card Title </h4>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- ========= BOTTOM ========== -->
+
+
+<div id="downloadTheApp">
+    <div class="bottomFont" id="download">
+        <h2> Download the App! </h2>
+        <p> Really, why should I download this app??</p>  
+        <a href="#"><img src="images/store.ico" class="icon"></a> 
+    </div>
+</div> 
+
+
+
+
+<!--BOOTSTRAP LINKS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
+<!-- ================ -->
+
+
+
+</body>
+
+
+</html>
